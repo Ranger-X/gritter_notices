@@ -70,7 +70,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<rspec-rails>, ["= 2.9.0"])
       s.add_development_dependency(%q<bundler>, [">= 0"])
       s.add_development_dependency(%q<jeweler>, [">= 0"])
-      s.add_runtime_dependency(%q<gritter>, [">= 0"])
+      #s.add_runtime_dependency(%q<gritter>, [">= 0"])
     else
       s.add_dependency(%q<rails>, ["~> 3.1"])
       s.add_dependency(%q<sprockets>, [">= 0"])
@@ -84,7 +84,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<rspec-rails>, ["= 2.9.0"])
       s.add_dependency(%q<bundler>, [">= 0"])
       s.add_dependency(%q<jeweler>, [">= 0"])
-      s.add_dependency(%q<gritter>, [">= 0"])
+      #s.add_dependency(%q<gritter>, [">= 0"])
       s.add_dependency(%q<rspec>, ["> 2.9"])
     end
   else
@@ -100,7 +100,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<rspec-rails>, ["= 2.9.0"])
     s.add_dependency(%q<bundler>, [">= 0"])
     s.add_dependency(%q<jeweler>, [">= 0"])
-    s.add_dependency(%q<gritter>, [">= 0"])
+    #s.add_dependency(%q<gritter>, [">= 0"])
     s.add_dependency(%q<rspec>, ["> 2.9"])
   end
 end
